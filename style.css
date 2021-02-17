@@ -1,0 +1,105 @@
+body{
+    background-color: blueviolet;
+    
+    
+    }
+    h1{
+        text-align: center;
+        font-size: 40px;
+        color:black ;
+    }
+    
+    h2{
+        font-size: 27px;
+        color:red;
+        border: burlywood 3px;
+    }
+    
+    img{
+        width: 200px;
+        height: 250px;
+        border: burlywood 3px;
+    
+    }
+    
+    a {
+        text-decoration: none;
+        display: block;
+        border: burlywood 3px;
+    }
+    
+    .flexbox-container  {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    .flexbox-item{
+        width: 350px;
+        height: 400px;
+    
+    }
+    
+    .one {
+        flex-shrink: 0;
+        flex-grow: 1;
+       
+    }
+    
+    .two {
+        flex-grow: 2;
+        flex-shrink: 1;
+        
+    }
+    
+    .three {
+        flex-shrink: 1;
+        flex-grow: 0;
+        
+    }
+    
+    .second-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse ;
+        align-content: space-around;
+    
+    }
+    .four{
+        flex-shrink: 0;
+        flex-grow: 1;
+    
+    }
+    .five {
+        flex-grow: 2;
+        flex-shrink: 1;
+    }
+    
+    .six {
+        flex-shrink: 1;
+        flex-grow: 0;
+    }
+    
+    .third-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row ;
+        align-content: space-between;
+    
+    
+    }
+    .seven {
+        flex-shrink: 1;
+        flex-grow: 1;
+    
+    }
+    .eight {
+        flex-grow: 2;
+        flex-shrink: 1;
+    }
+    .nine {
+        flex-shrink: 0;
+        flex-grow: 1;
+    
+    }

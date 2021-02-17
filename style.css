@@ -1,31 +1,35 @@
 body{
-    background-color: blueviolet;
+    background-color: rgb(243, 190, 199);
     
     
     }
     h1{
         text-align: center;
         font-size: 40px;
-        color:black ;
+        color:rgb(102, 139, 102);
     }
     
-    h2{
+    h2 {
         font-size: 27px;
-        color:red;
-        border: burlywood 3px;
+        color:rgb(82, 87, 82);
+        
+    }
+    p {
+        font-size: 18px;
+        color:rgb(82, 87, 82);
     }
     
     img{
-        width: 200px;
-        height: 250px;
-        border: burlywood 3px;
+        width: 400px;
+        height: 450px;
+        
     
     }
     
     a {
         text-decoration: none;
         display: block;
-        border: burlywood 3px;
+        
     }
     
     .flexbox-container  {
@@ -33,17 +37,19 @@ body{
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
+        
     
     }
     .flexbox-item{
-        width: 350px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
+        border: 10px;
     
     }
     
     .one {
-        flex-shrink: 0;
-        flex-grow: 1;
+        flex-shrink: 2;
+        flex-grow: 0;
        
     }
     
@@ -62,8 +68,8 @@ body{
     .second-container {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row-reverse ;
-        align-content: space-around;
+        flex-direction: row-reverse;
+        align-content: flex-start;
     
     }
     .four{
@@ -84,7 +90,7 @@ body{
     .third-container {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row ;
+        flex-direction: row-reverse ;
         align-content: space-between;
     
     

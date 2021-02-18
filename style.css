@@ -73,8 +73,8 @@ body{
         flex: 2;
         flex-shrink: 2;
         flex-grow: 0;
-       
-       
+       margin: auto;
+       align-self: stretch;
     }
     
     .two {
@@ -95,34 +95,39 @@ body{
     .second-container {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row-reverse;
+        flex-direction: row;
         align-content: flex-start;
     
     }
     .four{
         
-        flex-shrink: 3;
+        flex-shrink: 1;
         flex-grow: 1;
-        margin: auto;
+        flex-basis: auto;
+        order: 2;
     
     }
     .five {
-        
+        flex: 1;
         flex-grow: 1;
         flex-shrink: 3;
+        margin: auto;
+        order: 3;
     }
     
     .six {
         
         flex-shrink: 1;
-        flex-grow: 0;
+        flex-grow: 3;
+        order: 1;
+        align-self: stretch;
     }
     
     .third-container {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        align-items: flex-start;
+        
     
     
     }
@@ -130,6 +135,7 @@ body{
         
         flex-shrink: 1;
         flex-grow: 1;
+        align-self: stretch;
     
     }
     .eight {

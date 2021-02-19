@@ -1,0 +1,60 @@
+*{
+    cursor: pointer;
+}
+h1, h2{
+    text-align: center;
+}
+.red{
+ color: red;
+}
+.blue{
+    color: blue;
+}
+.green{ 
+    color: green;
+}
+.big{
+    font-size: large;
+}
+.tiny{
+    font-size: small;
+}
+.center{
+    text-align: right;
+    float
+}
+.bold {  
+    font-weight:bold;
+}
+.font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.list{
+    list-style-type: upper-roman;
+    color: orange;
+    font-size: 40px;
+}
+.li:hover {
+    color: blue 
+    
+    font-size: 20px;
+}
+
+.flexbox-container{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    border: green; solid 
+    justify-content: space-between;
+    width: 25px
+    
+
+}
+
+#styledImage{
+    border-style: groove; 
+    border: bisque;
+    
+}
+

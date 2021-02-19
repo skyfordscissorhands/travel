@@ -147,5 +147,6 @@ body{
         
         flex-shrink: 0;
         flex-grow: 1;
+        margin: auto;
     
     }
